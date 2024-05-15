@@ -55,6 +55,7 @@ body {
 
 .link {
   background-color: white;
+  color: var(--violet);
   border-radius: 50px;
   border: 1px solid black;
   padding: 1rem 4.5rem;

@@ -37,6 +37,7 @@
   }
 
   .link {
+    color: var(--violet);
     background-color: white;
     border-radius: 50px;
     border: 2px solid black;
