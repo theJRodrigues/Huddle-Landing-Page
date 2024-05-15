@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --violet: hsl(257, 40%, 49%);
+  --soft-magenta: hsl(300, 69%, 71%);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: url(../images/bg-mobile.svg);
+  background-size: 100% 400px;
+  background-repeat: no-repeat;
+  background-color: var(--violet);
+  padding: 3rem 2rem;
+}
+
+.logo {
+  width: 150px;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex: 1;
+  color: white;
+  font-size: 13px;
+  gap: 2rem;
+}
+
+.main img {
+  width: 100%;
+  max-width: 400px;
+}
+.content {
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.link {
+  background-color: white;
+  border-radius: 50px;
+  border: 1px solid black;
+  padding: 1rem 4.5rem;
+  text-decoration: none;
+  box-shadow: 2px 8px 14px 2px rgba(0, 0, 0, 0.28);
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.fa-brands {
+  border: solid 1px;
+  border-radius: 50%;
+  padding: 10px;
+  color: white;
+}
